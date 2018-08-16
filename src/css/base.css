@@ -1,0 +1,172 @@
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+tr,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #fff;
+}
+
+body {
+    width: 100%;
+    overflow-x: scroll;
+    min-height: 800px;
+    background-color: #fff;
+    box-sizing: content-box;
+    color: #000;
+    font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', "Microsoft Yahei", \5b8b\4f53, sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+#app {
+    height: 100%;
+   
+}
+
+.main {
+    vertical-align: top;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+em {
+    font-style: normal;
+    font-weight: 400
+}
+
+fieldset,
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button,
+input,
+textarea {
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: middle;
+    outline: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.placeholder {
+    color: #999 !important
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    transition: color 218ms ease;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.navigation {
+  position: relative;
+  height: 42px;
+  line-height: 42px;
+  border: 1px dashed #e0e0e0;
+  background: #fafafa;
+  padding-left: 15px;
+}
+.navigation .crumbs {
+  display: inline-block;
+  color: #333;
+  padding: 0;
+}
+.navigation .crumbs a {
+  margin: 0 2px;
+  color: #5a99dc;
+}
+.btn {
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
